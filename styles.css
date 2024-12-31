@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    background-color: GhostWhite;
+}
+
+path {
+    stroke: SlateGray;
+    stroke-width: 2;
+    stroke-dashoffset: 800;
+    stroke-dasharray: 800;
+    animation: draw 2s ease-in-out infinite;
+
+}
+
+@keyframes draw {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+h1 {
+    color: BlueViolet;
+}
